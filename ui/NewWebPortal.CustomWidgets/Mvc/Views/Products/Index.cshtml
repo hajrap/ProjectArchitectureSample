@@ -1,0 +1,16 @@
+﻿@model List<NewWebPortal.ApplicationCore.Entities.Product>
+
+    <h3><u>Products Listing</u></h3>
+    <div>
+        <table>
+            <tbody>
+                @foreach (var product in Model)
+                {
+                    <tr>
+                        <td>@Html.Raw(product.Name)</td>
+                        <td>@Html.Raw(product.Price)</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>

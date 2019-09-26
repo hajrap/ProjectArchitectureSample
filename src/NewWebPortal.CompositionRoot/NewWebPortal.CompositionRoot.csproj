@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ninject" Version="3.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NewWebPortal.ApplicationCore\NewWebPortal.ApplicationCore.csproj" />
+    <ProjectReference Include="..\NewWebPortal.Infrastructure\NewWebPortal.Infrastructure.csproj" />
+    <ProjectReference Include="..\NewWebPortal.Services\NewWebPortal.Services.csproj" />
+  </ItemGroup>
+
+</Project>
